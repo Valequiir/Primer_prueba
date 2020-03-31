@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+
+body{
+
+}
+.proyectos{
+  display: inherit;
+  height: auto;
+}
+
+.proyecto{
+  margin-top: auto;
+}
+
+.services{
+  display: inherit;
+}
+
+.experiencias{
+  display: inherit;
+
+}
+
+.experiencia{
+  margin-top: auto;
+}

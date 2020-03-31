@@ -1,0 +1,19 @@
+body{
+  background-color: var(--blue-color);
+  text-align: center;
+  color: var(--blueclaro-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Content_paypal_exito a{
+color: white;
+text-decoration: none;
+}
+
+img{
+  height: 40%;
+  width: 40%;
+}

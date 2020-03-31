@@ -1,0 +1,237 @@
+
+
+/* <------- Variables ------> */
+:root{
+--blue-color:#005F74;
+--blueclaro-color:#9AD8DC;
+
+/*  Spaces */
+--space:10px;
+/*  shadow */
+--shadow:0px 1px 5px 0px #0000005c;
+
+}
+
+
+/* <------- Spaces ------> */
+
+html,body{
+  padding: 0px;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Rosario', sans-serif;
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Lato', sans-serif; */
+}
+
+p, label{
+  font-size: 14px;
+  font-family: helvetica;
+}
+
+nav{
+  display: flex;
+  background-color: var(--blue-color);
+  padding: 3px;
+  color: var(--blueclaro-color);
+  justify-content:space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-right: var(--space);
+  list-style: none;
+}
+
+nav li a{
+  color: var(--blueclaro-color);
+  text-decoration: none;
+  /* padding: var(--space); */
+}
+
+nav li a:hover{
+  color: yellow;
+}
+
+
+.brand_image{
+  padding-left: var(--space);
+}
+
+.brand_image img{
+  width: 10%; height: 10%;
+}
+
+/* ----- SEGUNDA SECCION ------------- */
+
+.segundaseccion{
+  padding: 5px;
+  text-align: center;
+}
+/* ----- proyectos------------- */
+
+ .proyectos{
+   background-image: url("../images/mulan.png");
+   background-size: 100%;
+   display: flex;
+   background-position: center top;
+   padding: 90px;
+   /* height: 95px; */
+   justify-content: center;
+   background-repeat: no-repeat;
+ }
+
+.proyecto{
+  padding: 10px;
+}
+
+.content {
+  background-color: white;
+  padding: 5px;
+  box-shadow: 1px 2px 5px 0px #00181d40;
+  /* text-align: center; */
+  border-radius: 3px;
+}
+
+.img_content{
+  text-align: center;
+}
+
+.imag_peque{
+  max-width: 100%;
+/* width: 400px; height: 200px; */
+}
+
+.main_button{
+  background-color: var(--blue-color);
+  width: 100%;
+  padding: var(--space);
+  color: var(--blueclaro-color);
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  min-height: 100%;
+}
+
+.main_button:hover{
+  color: var(--blue-color);
+  background-color: white;
+}
+
+/* ------ servicios ---- */
+
+.services{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.servicio img{
+  max-height: 100px;
+}
+
+.servicio{
+  text-align: center;
+  padding: 30px;
+}
+
+.text_servicio{
+  text-align: center;
+}
+
+/* ------experiencia ---- */
+.terceraseccion{
+  text-align: center;
+  /* margin-top: 10%; */
+  /* padding: 20px; */
+}
+
+.experiencias{
+  display: flex;
+  padding: 50px;
+}
+
+.experiencia{
+  padding: 10px;
+}
+
+.experiencia img{
+  width: 100%;
+}
+
+.experiencia .text {
+  text-align: center;
+  padding: 10px;
+}
+
+.experiencia_content{
+  box-shadow: var(--shadow);
+}
+
+/* ------ proyectos_ux/ui ---- */
+
+.titulo{
+  margin-bottom: 5%;
+
+}
+
+.row{
+  align-items: center;
+}
+/* ------ proyectos_ux/ui ---- */
+
+/* ------ ventas ---- */
+
+.modulo_pago{
+  display: inherit;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: var(--shadow);
+  /* box-sizing: border-box; */
+}
+
+.modulo_pago_images {
+  /* max-width: 200px; */
+  text-align: center;
+  /* width: 100%; */
+  /* margin: auto; */
+  /* box-sizing: border-box; */
+}
+
+/* img{
+  box-sizing: border-box;
+} */
+
+.data{
+  margin-bottom: var(--space);
+  margin-top: 5px;
+  width: 100%;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid var(--blue-color);
+  box-sizing: border-box;
+
+}
+
+
+/* ------ footer ---- */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--blue-color);
+  padding: var(--space);
+  color: var(--blueclaro-color);
+
+}
+
+.options_contacto a {
+  color: var(--blueclaro-color);
+  text-decoration: none;
+}
